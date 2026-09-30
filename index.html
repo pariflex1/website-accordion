@@ -55,7 +55,6 @@ button:focus-visible{outline:3px solid var(--acc);outline-offset:2px;border-radi
 <h1>Our Services</h1>
 <button class="theme-toggle" type="button" id="themeToggle" aria-pressed="true" aria-label="Switch to light theme"><span class="theme-icon" id="themeIcon" aria-hidden="true">☀</span><span class="theme-label" id="themeLabel">Light mode</span></button>
 </div>
-
 <p class="lead">Websites, business software, AI automation and paid ads, built for growing businesses. Tap a service to see what we deliver.</p>
 <div id="acc"></div>
 </main>
@@ -121,10 +120,12 @@ var acc=document.getElementById("acc"),h="";
 D.forEach(function(s,n){
   h+='<section class="svc"><button class="head" aria-expanded="false" aria-controls="p'+n+'" id="b'+n+'"><span class="ttl"><b>'+s.t+'</b><span>'+s.s+'</span></span>'+ch+'</button>';
   h+='<div class="panel" id="p'+n+'" role="region" aria-labelledby="b'+n+'"><div><p class="intro">'+s.i+'</p><div class="list">';
+
   s.l.forEach(function(x,m){
     var id=n+'_'+m;
     h+='<div class="item"><button class="q" aria-expanded="false" aria-controls="a'+id+'"><span>'+x[0]+'</span>'+ch+'</button><div class="panel" id="a'+id+'"><div><p class="ans">'+x[1]+'</p></div></div></div>';
   });
+
   h+='</div></div></div></section>';
 });
 
@@ -200,8 +201,6 @@ acc.addEventListener("click",function(e){
     set(b,open);
   }
 });
-
-set(acc.querySelector(".head"),true);
 </script>
 </body>
 </html>
