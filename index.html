@@ -79,57 +79,6 @@ button:focus-visible{outline:3px solid var(--acc);outline-offset:2px;border-radi
 
 <script>
 var D=[
-{t:"Core Infrastructure &amp; Stack Resources",s:"5 technology categories",i:"The platforms, infrastructure and technical building blocks behind reliable websites, business software, AI systems and automated workflows.",l:[
-["Web Frameworks &amp; Content Management","",`<div class="ans rich-answer">
-<h3>WordPress</h3>
-<p>Content Management System (CMS) utilized for dynamic websites, e-commerce stores (WooCommerce), client portals, and headless backend content distribution via REST API or GraphQL.</p>
-<h3>Vercel</h3>
-<p>Global edge-hosting platform engineered for Next.js, React, and static site frameworks, offering automated CI/CD deployments, instant global CDN caching, and serverless API functions.</p>
-</div>`],
-["Cloud Backend, Database Infrastructure &amp; RAG","",`<div class="ans rich-answer">
-<h3>Supabase</h3>
-<p>Open-source Backend-as-a-Service (BaaS) built on managed PostgreSQL, providing native authentication (OAuth, Magic Links), Row Level Security (RLS), file storage, real-time subscriptions, and vector search tools.</p>
-<h3>Retrieval-Augmented Generation (RAG) Systems</h3>
-<p>AI search architecture that connects custom knowledge bases (e.g., Supabase Vector / PGVector) to Large Language Models (LLMs), allowing AI agents to generate accurate, context-aware answers based on real-time business data.</p>
-<h3>Docker &amp; Cloudflare</h3>
-<p>Containerized hosting and edge infrastructure used for running microservices, managing secure SSL/TLS routing, DNS management, and global CDN delivery.</p>
-</div>`],
-["Workflow Automation &amp; Integration Engines","",`<div class="ans rich-answer">
-<h3>n8n</h3>
-<p>Self-hosted or cloud-based workflow automation tool equipped with native AI agent nodes, custom JavaScript/Python execution, complex logic processing, and secure webhook listeners.</p>
-<h3>Integromat / Make</h3>
-<p>Visual cloud integration platform for constructing multi-step automated pipelines across webhooks, CRMs, database tables, and communication APIs without code overhead.</p>
-</div>`],
-["Technical Ecosystem &amp; Extended Stack Options","",`<div class="ans rich-answer stack-table-wrap">
-<table class="stack-table">
-<caption>Recommended technologies and primary use cases</caption>
-<thead><tr><th scope="col">Resource Category</th><th scope="col">Recommended Technologies</th><th scope="col">Primary Use Case</th></tr></thead>
-<tbody>
-<tr><td>AI &amp; LLM Services</td><td>Top-ranking AI models</td><td>Chatbots, automated lead qualification, Retrieval-Augmented Generation (RAG), and smart content processing</td></tr>
-<tr><td>Internal Tools &amp; Dashboards</td><td>Retool, Appsmith, Supabase Studio</td><td>Rapid custom admin panel creation, internal operational dashboards, and database UI interfaces</td></tr>
-<tr><td>Frontend UI &amp; Components</td><td>Tailwind CSS, shadcn/ui, Elementor</td><td>Responsive site layouts, custom UI components, and high-converting landing page designs</td></tr>
-<tr><td>Data Sync &amp; Storage</td><td>Google Sheets API, PostgreSQL, Supabase Storage</td><td>Form lead processing, media file delivery, and structured data retention</td></tr>
-<tr><td>DevOps &amp; Version Control</td><td>GitHub, GitHub Actions, Railway</td><td>Automated code deployment pipeline, serverless container execution, and source control</td></tr>
-</tbody>
-</table>
-</div>`],
-["Glossary of Technical Terms &amp; Acronyms","",`<div class="ans rich-answer">
-<dl class="glossary">
-<dt>API (Application Programming Interface)</dt><dd>A set of rules and protocols that allows different software systems or services to communicate and share data with each other automatically.</dd>
-<dt>BaaS (Backend-as-a-Service)</dt><dd>A cloud service model that provides developers with ready-to-use backend infrastructure (databases, authentication, file storage) so they don't have to build server architecture from scratch.</dd>
-<dt>CDN (Content Delivery Network)</dt><dd>A geographically distributed network of servers that caches website assets (images, code files) closer to users worldwide to deliver fast web page loading speeds.</dd>
-<dt>CI/CD (Continuous Integration / Continuous Deployment)</dt><dd>Automated software engineering workflows where code updates are automatically tested, built, and pushed to live production servers whenever changes are made.</dd>
-<dt>CMS (Content Management System)</dt><dd>A software platform (like WordPress) that lets users create, manage, and edit website content visually without manually writing HTML or backend code.</dd>
-<dt>CRM (Customer Relationship Management)</dt><dd>Software systems used to manage, track, and organize business interactions with prospective leads, clients, and user data.</dd>
-<dt>DNS (Domain Name System)</dt><dd>The internet's address book system that translates human-readable domain names (e.g., <code>example.com</code>) into computer IP addresses.</dd>
-<dt>LLM (Large Language Model)</dt><dd>Advanced AI models, such as Gemini or OpenAI GPT models, trained on vast datasets to understand, generate, and reason with natural human language and code.</dd>
-<dt>OAuth (Open Authorization)</dt><dd>An open standard protocol for secure access delegation (e.g., "Sign in with Google") that allows apps to verify user identity without directly accessing user passwords.</dd>
-<dt>RAG (Retrieval-Augmented Generation)</dt><dd>An AI technique where a model retrieves factual, relevant information from an external database or document repository before generating an answer, preventing hallucinations and ensuring high accuracy.</dd>
-<dt>RLS (Row Level Security)</dt><dd>A fine-grained database security strategy in PostgreSQL/Supabase that controls which specific rows of data individual users can view or modify based on their user roles.</dd>
-<dt>SSL/TLS (Secure Sockets Layer / Transport Layer Security)</dt><dd>Standard cryptographic protocols that encrypt data transmitted over the internet, establishing secure HTTPS connections between web browsers and servers.</dd>
-<dt>UI (User Interface)</dt><dd>The visual layout, buttons, menus, and forms that users directly view and interact with on a website or app screen.</dd>
-</dl>
-</div>`]]},
 
 {t:"Website Development",s:"12 website types",i:"From a single landing page to a full online store, we build fast, mobile-friendly sites that look professional and turn visitors into enquiries.",l:[
 ["Business & Corporate Websites","A professional multi-page site that presents your company, services, team and contact details clearly and builds trust with new customers."],
@@ -181,7 +130,59 @@ var D=[
 ["Ad Creative & Copy","Eye-catching images, videos and persuasive Hindi or English copy designed to stop the scroll and drive a response."],
 ["Pixel & Conversion API","Correct Meta Pixel and Conversion API setup so leads and sales are tracked accurately, even with browser privacy limits."],
 ["Campaign Optimization","Ongoing testing of audiences, creatives and budgets to lower your cost per lead and scale the ads that perform best."],
-["Performance Reporting","Simple regular reports showing spend, leads, cost per result and what we will improve next, in plain language."]]}
+["Performance Reporting","Simple regular reports showing spend, leads, cost per result and what we will improve next, in plain language."]]},
+
+{t:"Core Infrastructure &amp; Stack Resources",s:"5 technology categories",i:"The platforms, infrastructure and technical building blocks behind reliable websites, business software, AI systems and automated workflows.",l:[
+["Web Frameworks &amp; Content Management","",`<div class="ans rich-answer">
+<h3>WordPress</h3>
+<p>Content Management System (CMS) utilized for dynamic websites, e-commerce stores (WooCommerce), client portals, and headless backend content distribution via REST API or GraphQL.</p>
+<h3>Vercel</h3>
+<p>Global edge-hosting platform engineered for Next.js, React, and static site frameworks, offering automated CI/CD deployments, instant global CDN caching, and serverless API functions.</p>
+</div>`],
+["Cloud Backend, Database Infrastructure &amp; RAG","",`<div class="ans rich-answer">
+<h3>Supabase</h3>
+<p>Open-source Backend-as-a-Service (BaaS) built on managed PostgreSQL, providing native authentication (OAuth, Magic Links), Row Level Security (RLS), file storage, real-time subscriptions, and vector search tools.</p>
+<h3>Retrieval-Augmented Generation (RAG) Systems</h3>
+<p>AI search architecture that connects custom knowledge bases (e.g., Supabase Vector / PGVector) to Large Language Models (LLMs), allowing AI agents to generate accurate, context-aware answers based on real-time business data.</p>
+<h3>Docker &amp; Cloudflare</h3>
+<p>Containerized hosting and edge infrastructure used for running microservices, managing secure SSL/TLS routing, DNS management, and global CDN delivery.</p>
+</div>`],
+["Workflow Automation &amp; Integration Engines","",`<div class="ans rich-answer">
+<h3>n8n</h3>
+<p>Self-hosted or cloud-based workflow automation tool equipped with native AI agent nodes, custom JavaScript/Python execution, complex logic processing, and secure webhook listeners.</p>
+<h3>Integromat / Make</h3>
+<p>Visual cloud integration platform for constructing multi-step automated pipelines across webhooks, CRMs, database tables, and communication APIs without code overhead.</p>
+</div>`],
+["Technical Ecosystem &amp; Extended Stack Options","",`<div class="ans rich-answer stack-table-wrap">
+<table class="stack-table">
+<caption>Recommended technologies and primary use cases</caption>
+<thead><tr><th scope="col">Resource Category</th><th scope="col">Recommended Technologies</th><th scope="col">Primary Use Case</th></tr></thead>
+<tbody>
+<tr><td>AI &amp; LLM Services</td><td>Top-ranking AI models</td><td>Chatbots, automated lead qualification, Retrieval-Augmented Generation (RAG), and smart content processing</td></tr>
+<tr><td>Internal Tools &amp; Dashboards</td><td>Retool, Appsmith, Supabase Studio</td><td>Rapid custom admin panel creation, internal operational dashboards, and database UI interfaces</td></tr>
+<tr><td>Frontend UI &amp; Components</td><td>Tailwind CSS, shadcn/ui, Elementor</td><td>Responsive site layouts, custom UI components, and high-converting landing page designs</td></tr>
+<tr><td>Data Sync &amp; Storage</td><td>Google Sheets API, PostgreSQL, Supabase Storage</td><td>Form lead processing, media file delivery, and structured data retention</td></tr>
+<tr><td>DevOps &amp; Version Control</td><td>GitHub, GitHub Actions, Railway</td><td>Automated code deployment pipeline, serverless container execution, and source control</td></tr>
+</tbody>
+</table>
+</div>`],
+["Glossary of Technical Terms &amp; Acronyms","",`<div class="ans rich-answer">
+<dl class="glossary">
+<dt>API (Application Programming Interface)</dt><dd>A set of rules and protocols that allows different software systems or services to communicate and share data with each other automatically.</dd>
+<dt>BaaS (Backend-as-a-Service)</dt><dd>A cloud service model that provides developers with ready-to-use backend infrastructure (databases, authentication, file storage) so they don't have to build server architecture from scratch.</dd>
+<dt>CDN (Content Delivery Network)</dt><dd>A geographically distributed network of servers that caches website assets (images, code files) closer to users worldwide to deliver fast web page loading speeds.</dd>
+<dt>CI/CD (Continuous Integration / Continuous Deployment)</dt><dd>Automated software engineering workflows where code updates are automatically tested, built, and pushed to live production servers whenever changes are made.</dd>
+<dt>CMS (Content Management System)</dt><dd>A software platform (like WordPress) that lets users create, manage, and edit website content visually without manually writing HTML or backend code.</dd>
+<dt>CRM (Customer Relationship Management)</dt><dd>Software systems used to manage, track, and organize business interactions with prospective leads, clients, and user data.</dd>
+<dt>DNS (Domain Name System)</dt><dd>The internet's address book system that translates human-readable domain names (e.g., <code>example.com</code>) into computer IP addresses.</dd>
+<dt>LLM (Large Language Model)</dt><dd>Advanced AI models, such as Gemini or OpenAI GPT models, trained on vast datasets to understand, generate, and reason with natural human language and code.</dd>
+<dt>OAuth (Open Authorization)</dt><dd>An open standard protocol for secure access delegation (e.g., "Sign in with Google") that allows apps to verify user identity without directly accessing user passwords.</dd>
+<dt>RAG (Retrieval-Augmented Generation)</dt><dd>An AI technique where a model retrieves factual, relevant information from an external database or document repository before generating an answer, preventing hallucinations and ensuring high accuracy.</dd>
+<dt>RLS (Row Level Security)</dt><dd>A fine-grained database security strategy in PostgreSQL/Supabase that controls which specific rows of data individual users can view or modify based on their user roles.</dd>
+<dt>SSL/TLS (Secure Sockets Layer / Transport Layer Security)</dt><dd>Standard cryptographic protocols that encrypt data transmitted over the internet, establishing secure HTTPS connections between web browsers and servers.</dd>
+<dt>UI (User Interface)</dt><dd>The visual layout, buttons, menus, and forms that users directly view and interact with on a website or app screen.</dd>
+</dl>
+</div>`]]}
 ];
 
 var ch='<span class="ic"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 8h12"/><path class="v" d="M8 2v12"/></svg></span>';
