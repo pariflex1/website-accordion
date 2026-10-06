@@ -1,0 +1,92 @@
+Executive Service Catalogue & Capabilities Statement
+Core Service Overview
+Service Domain	Scope	Core Value Proposition
+Website Development	12 Web Solutions	High-speed, mobile-optimized sites designed to convert visitors into inquiries.
+Web & Application Development	11 Software Solutions	Custom web apps and tools replacing manual spreadsheets and fragmented data.
+AI Solutions & Automation	11 AI & Workflow Systems	Intelligent chatbots, 24/7 lead handling, and automated business workflows.
+Facebook & Instagram Ads	10 Meta Marketing Services	Targeted campaigns delivering measurable leads, sales, and optimized ad ROI.
+1. Website Development
+From a single landing page to a full online store, we build fast, mobile-friendly sites that look professional and turn visitors into enquiries.
+•	Business & Corporate Websites: A professional multi-page site that presents your company, services, team, and contact details clearly to build trust with new customers.
+•	Landing Pages: A focused single page built for one goal—such as collecting leads for a campaign—with a clear offer, short form, and fast loading speed.
+•	E-commerce Websites: Complete online stores featuring product catalogues, cart systems, secure checkout, payment gateway setups, and order management.
+•	Real Estate Websites: Project and property showcases equipped with galleries, floor plans, location maps, inquiry forms, and direct WhatsApp call buttons.
+•	Hotel & Restaurant Websites: Interactive menus, room details, photo galleries, table/room booking forms, and embedded Google Maps for walk-ins.
+•	Portfolio Websites: Clean, modern showcases of work, skills, and client outcomes for professionals, creative studios, and freelancers.
+•	Educational Websites: Engaging platforms for schools, colleges, coaching centers, and course providers with programs, admissions, and resource hubs.
+•	WordPress Websites: Easy-to-manage WordPress setups with custom themes, enabling your team to update content effortlessly without coding.
+•	CMS Websites: Content-managed solutions allowing non-technical staff to add, edit, and publish pages, blogs, and media updates.
+•	Custom Websites: Bespoke design and unique functionality built around your specific operational requirements when ready-made templates fall short.
+•	Website Redesign: Fresh, modern interface overhauls with upgraded navigation and speed, while preserving existing SEO rankings and content.
+•	SEO-ready Websites: Built with clean code, fast loading, optimized headings, meta tags, XML sitemaps, and Schema markup for search engine visibility.
+2. Web & Application Development
+Custom software that replaces spreadsheets and manual work, so your team saves time and your data stays organised in one place.
+•	React & Vite Applications: High-performance, responsive front-end interfaces, including installable Progressive Web Apps (PWAs) tailored for mobile devices.
+•	Next.js Applications: Server-rendered applications offering exceptional speed and SEO, ideal for platforms combining public pages with user dashboards.
+•	Node.js Backend Development: Scalable, secure server architectures and APIs engineered to process business logic, user security, and high data volumes.
+•	Custom Web Applications: Tailored browser-based business applications, ranging from custom booking platforms to internal staff and customer portals.
+•	CRM & ERP Systems: Integrated management systems to track leads, customers, sales pipelines, inventory, and accounts with role-based access control.
+•	SaaS Platforms: Complete multi-tenant SaaS architectures featuring subscription management, tiered plans, billing engines, and admin controls.
+•	Admin Dashboards: Data-rich dashboards featuring real-time charts, filterable tables, and data exports for key operations and executive metrics.
+•	Business Management Systems: End-to-end digital tools for attendance, payroll, project tracking, vendor payments, and approval workflows.
+•	API & Third-party Integrations: Secure connections between your core software and payment gateways, WhatsApp, SMS, email, and mapping platforms.
+•	Webhook Integrations: Automated, real-time event triggers connecting your website, web apps, and third-party tools instantly without manual input.
+•	Mobile & Cross-platform Applications: Single-codebase mobile applications running seamlessly across iOS, Android, and Web, featuring native GPS and camera integration.
+3. AI Solutions & Automation
+Put AI to work on repetitive tasks: answer customers instantly, follow up on leads automatically and save hours every day.
+•	Custom AI Chatbots: Specialized AI bots trained on your operational data to resolve customer queries, qualify visitors, and escalate to human agents when needed.
+•	Website AI Assistants: Embedded virtual assistants that guide site visitors, explain offerings, and capture verified lead details 24/7.
+•	WhatsApp AI Chatbots: Multi-lingual automated WhatsApp responders (Hindi, English, Hinglish) designed to deliver details, answer FAQs, and book calls.
+•	AI Knowledge-base Chatbots: Searchable AI assistants trained on internal brochures, technical documentation, and price lists for precise answers without halluciations.
+•	AI Agents: Autonomous agents capable of executing multi-step tasks such as market research, system logging, messaging, and operational reporting.
+•	Workflow Automation: Custom app integrations using modern automation tools (e.g., n8n) to handle notifications, approvals, and multi-app tasks hands-free.
+•	n8n Workflow Automation: Enterprise-grade self-hosted or cloud n8n workflows linking forms, CRMs, messaging channels, and operational software.
+•	Lead Automation: End-to-end lead pipelines that aggregate leads from ads and forms, post them to your CRM, alert sales reps, and start auto-nurturing.
+•	AI-powered CRM: Smart CRM configurations that auto-score leads, recommend next-best actions, transcribe calls, and trigger follow-up tasks.
+•	Document & Data Automation: Intelligent document processing tools to extract data from PDFs, invoices, and forms directly into structured reports or quotations.
+•	Custom AI API Integration: Direct integration of LLMs and generative models (text, translation, vision, summarization) into your proprietary software tools.
+4. Facebook & Instagram Ads (Meta Marketing)
+Reach the right people on Facebook and Instagram, generate quality enquiries and track exactly what your ad budget delivers.
+•	Meta Ads Strategy: Data-driven acquisition plans covering audience profiling, budgeting, offer structuring, and conversion funnel design.
+•	Facebook & Instagram Campaigns: End-to-end management of ad campaigns across Feeds, Stories, and Reels, structured for cost efficiency and reach.
+•	Lead Generation: Targeted instant-form and custom landing page ad campaigns configured to capture verified user details for sales pipelines.
+•	Conversion Campaigns: Goal-focused ad optimizations targeting directly trackable events like online orders, direct calls, incoming messages, or bookings.
+•	Audience Targeting: Precision targeting across demographics, locations, online behaviors, and custom/lookalike audiences derived from past buyers.
+•	Retargeting: Strategic re-engagement ads targeting previous website visitors, video viewers, and direct message contacts to maximize conversion rates.
+•	Ad Creative & Copy: Visual assets (images, short-form video) paired with persuasive copy in regional languages or English engineered to drive high click-through rates.
+•	Pixel & Conversion API: Technical setup of Meta Pixel and Server-Side Conversion API to maintain accurate tracking amid browser privacy constraints.
+•	Campaign Optimization: Continuous split-testing of ad creatives, landing pages, and demographic targets to reduce cost-per-lead (CPL) and maximize ROAS.
+•	Performance Reporting: Transparent performance breakdowns tracking ad spend, lead counts, cost-per-acquisition, and strategic growth recommendations.
+
+Core Infrastructure & Stack Resources
+1. Web Frameworks & Content Management
+•	WordPress: Content Management System (CMS) utilized for dynamic websites, e-commerce stores (WooCommerce), client portals, and headless backend content distribution via REST API or GraphQL.
+•	Vercel: Global edge-hosting platform engineered for Next.js, React, and static site frameworks, offering automated CI/CD deployments, instant global CDN caching, and serverless API functions.
+2. Cloud Backend, Database Infrastructure & RAG
+•	Supabase: Open-source Backend-as-a-Service (BaaS) built on managed PostgreSQL, providing native authentication (OAuth, Magic Links), Row Level Security (RLS), file storage, real-time subscriptions, and vector search tools.
+•	Retrieval-Augmented Generation (RAG) Systems: AI search architecture that connects custom knowledge bases (e.g., Supabase Vector / PGVector) to Large Language Models (LLMs), allowing AI agents to generate accurate, context-aware answers based on real-time business data.
+•	Docker & Cloudflare: Containerized hosting and edge infrastructure used for running microservices, managing secure SSL/TLS routing, DNS management, and global CDN delivery.
+3. Workflow Automation & Integration Engines
+•	n8n: Self-hosted or cloud-based workflow automation tool equipped with native AI agent nodes, custom JavaScript/Python execution, complex logic processing, and secure webhook listeners.
+•	Integromat / Make: Visual cloud integration platform for constructing multi-step automated pipelines across webhooks, CRMs, database tables, and communication APIs without code overhead.
+Technical Ecosystem & Extended Stack Options
+Resource Category	Recommended Technologies	Primary Use Case
+AI & LLM Services	Top-ranking AI models	Chatbots, automated lead qualification, Retrieval-Augmented Generation (RAG), and smart content processing
+Internal Tools & Dashboards	Retool, Appsmith, Supabase Studio	Rapid custom admin panel creation, internal operational dashboards, and database UI interfaces
+Frontend UI & Components	Tailwind CSS, shadcn/ui, Elementor	Responsive site layouts, custom UI components, and high-converting landing page designs
+Data Sync & Storage	Google Sheets API, PostgreSQL, Supabase Storage	Form lead processing, media file delivery, and structured data retention
+DevOps & Version Control	GitHub, GitHub Actions, Railway	Automated code deployment pipeline, serverless container execution, and source control
+Glossary of Technical Terms & Acronyms
+•	API (Application Programming Interface): A set of rules and protocols that allows different software systems or services to communicate and share data with each other automatically.
+•	BaaS (Backend-as-a-Service): A cloud service model that provides developers with ready-to-use backend infrastructure (databases, authentication, file storage) so they don't have to build server architecture from scratch.
+•	CDN (Content Delivery Network): A geographically distributed network of servers that caches website assets (images, code files) closer to users worldwide to deliver fast web page loading speeds.
+•	CI/CD (Continuous Integration / Continuous Deployment): Automated software engineering workflows where code updates are automatically tested, built, and pushed to live production servers whenever changes are made.
+•	CMS (Content Management System): A software platform (like WordPress) that lets users create, manage, and edit website content visually without manually writing HTML or backend code.
+•	CRM (Customer Relationship Management): Software systems used to manage, track, and organize business interactions with prospective leads, clients, and user data.
+•	DNS (Domain Name System): The internet's address book system that translates human-readable domain names (e.g., example.com) into computer IP addresses.
+•	LLM (Large Language Model): Advanced AI models (such as Gemini or OpenAI GPT models) trained on vast datasets to understand, generate, and reason with natural human language and code.
+•	OAuth (Open Authorization): An open standard protocol for secure access delegation (e.g., "Sign in with Google") that allows apps to verify user identity without directly accessing user passwords.
+•	RAG (Retrieval-Augmented Generation): An AI technique where a model retrieves factual, relevant information from an external database or document repository before generating an answer, preventing hallucinations and ensuring high accuracy.
+•	RLS (Row Level Security): A fine-grained database security strategy in PostgreSQL/Supabase that controls which specific rows of data individual users can view or modify based on their user roles.
+•	SSL/TLS (Secure Sockets Layer / Transport Layer Security): Standard cryptographic protocols that encrypt data transmitted over the internet, establishing secure HTTPS connections between web browsers and servers.
+•	UI (User Interface): The visual layout, buttons, menus, and forms that users directly view and interact with on a website or app screen.
