@@ -166,16 +166,10 @@ const APP_CONFIG = {
     whatsapp: "916394172884"
   },
 
-  /* ---- Header status button -------------------------------------------- */
-  status: {
-    label: "Status",
-    message: "All systems operational."
-  },
-
   /* ---- Misc UI strings / timing ---------------------------------------- */
   ui: {
     toastDuration: 5000,
-    carouselSpeed: 34
+    carouselSpeed: 20
   }
 };
 
@@ -288,7 +282,7 @@ const dom = {
   formNote: $("#formNote"),
   carousel: $("#resourceCarousel"),
   track: $("#resourceTrack"),
-  inquiryBtn: $("#inquiryBtn"),
+  contactBtn: $("#contactBtn"),
   inquiryChoices: $("#inquiryChoices"),
   categoryModal: $("#categoryModal"),
   categoryModalTitle: $("#categoryModalTitle"),
@@ -301,7 +295,6 @@ const dom = {
   toast: $("#toast"),
   themeToggle: $("#themeToggle"),
   themeIcon: $("#themeToggle .theme-icon"),
-  statusBtn: $("#statusBtn"),
   previewCat: $("#previewCat"),
   previewSvc: $("#previewSvc"),
   previewSummary: $("#previewSummary"),
@@ -1403,7 +1396,7 @@ function buildCarousel() {
 
   const measure = () => {
     mq.groupW = group.offsetWidth;
-    mq.speed = mq.groupW / (APP_CONFIG.ui.carouselSpeed || 34); /* px per second */
+    mq.speed = mq.groupW / (APP_CONFIG.ui.carouselSpeed || 20); /* px per second */
     wrapOffset();
     applyTransform();
   };
@@ -1601,12 +1594,6 @@ function initHeader() {
     const isDark = document.documentElement.getAttribute("data-theme") === "dark";
     applyTheme(isDark ? "light" : "dark");
   });
-
-  const status = APP_CONFIG.status || {};
-  $(".status-label", dom.statusBtn).textContent = status.label || "Status";
-  dom.statusBtn.addEventListener("click", () => {
-    toast("success", status.message || "All systems operational.");
-  });
 }
 
 function init() {
@@ -1663,7 +1650,7 @@ function init() {
 
   /* Inquiry */
   buildInquiry();
-  dom.inquiryBtn.addEventListener("click", () => openModal(dom.inquiryModal));
+  dom.contactBtn.addEventListener("click", () => openModal(dom.inquiryModal));
 
   /* Carousel */
   buildCarousel();
